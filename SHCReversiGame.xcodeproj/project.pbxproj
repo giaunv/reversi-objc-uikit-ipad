@@ -31,6 +31,7 @@
 		72A5A08F1671DA3E00AF63F4 /* ReversiBlackPiece@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A5A0851671DA3E00AF63F4 /* ReversiBlackPiece@2x.png */; };
 		72A5A0901671DA3E00AF63F4 /* ReversiWhitePiece.png in Resources */ = {isa = PBXBuildFile; fileRef = 72A5A0861671DA3E00AF63F4 /* ReversiWhitePiece.png */; };
 		94D117951AC84CA60026FF2C /* SHCBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117941AC84CA60026FF2C /* SHCBoard.m */; };
+		94D1179B1AC854AD0026FF2C /* SHCBoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		94D117931AC84CA60026FF2C /* SHCBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoard.h; sourceTree = "<group>"; };
 		94D117941AC84CA60026FF2C /* SHCBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoard.m; sourceTree = "<group>"; };
 		94D117961AC84D1B0026FF2C /* BoardCellState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardCellState.h; sourceTree = "<group>"; };
+		94D117991AC854AD0026FF2C /* SHCBoardTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoardTest.h; sourceTree = "<group>"; };
+		94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoardTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				72A5A0681671D8F600AF63F4 /* Supporting Files */,
+				94D117991AC854AD0026FF2C /* SHCBoardTest.h */,
+				94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */,
 			);
 			path = SHCReversiGameTests;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D1179B1AC854AD0026FF2C /* SHCBoardTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
