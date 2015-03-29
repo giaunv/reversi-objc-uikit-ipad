@@ -33,6 +33,7 @@
 		94D117951AC84CA60026FF2C /* SHCBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117941AC84CA60026FF2C /* SHCBoard.m */; };
 		94D1179B1AC854AD0026FF2C /* SHCBoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */; };
 		94D1179E1AC8BCF80026FF2C /* SHCReversiBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */; };
+		94D117A11AC8C2450026FF2C /* SHCBoardSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoardTest.m; sourceTree = "<group>"; };
 		94D1179C1AC8BCF80026FF2C /* SHCReversiBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCReversiBoard.h; sourceTree = "<group>"; };
 		94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCReversiBoard.m; sourceTree = "<group>"; };
+		94D1179F1AC8C2450026FF2C /* SHCBoardSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoardSquare.h; sourceTree = "<group>"; };
+		94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoardSquare.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +215,8 @@
 		72A5A07B1671D9D700AF63F4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94D1179F1AC8C2450026FF2C /* SHCBoardSquare.h */,
+				94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -353,6 +358,7 @@
 				72A5A0571671D8F600AF63F4 /* SHCViewController.m in Sources */,
 				72347606167601BE00185647 /* main.m in Sources */,
 				94D1179E1AC8BCF80026FF2C /* SHCReversiBoard.m in Sources */,
+				94D117A11AC8C2450026FF2C /* SHCBoardSquare.m in Sources */,
 				7234760A167604FA00185647 /* SHCMulticastDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
