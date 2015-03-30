@@ -34,6 +34,7 @@
 		94D1179B1AC854AD0026FF2C /* SHCBoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179A1AC854AD0026FF2C /* SHCBoardTest.m */; };
 		94D1179E1AC8BCF80026FF2C /* SHCReversiBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */; };
 		94D117A11AC8C2450026FF2C /* SHCBoardSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */; };
+		94D117A41AC8C6B10026FF2C /* SHCReversiBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCReversiBoard.m; sourceTree = "<group>"; };
 		94D1179F1AC8C2450026FF2C /* SHCBoardSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoardSquare.h; sourceTree = "<group>"; };
 		94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoardSquare.m; sourceTree = "<group>"; };
+		94D117A21AC8C6B10026FF2C /* SHCReversiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCReversiBoardView.h; sourceTree = "<group>"; };
+		94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCReversiBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 			children = (
 				94D1179F1AC8C2450026FF2C /* SHCBoardSquare.h */,
 				94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */,
+				94D117A21AC8C6B10026FF2C /* SHCReversiBoardView.h */,
+				94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -354,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D117951AC84CA60026FF2C /* SHCBoard.m in Sources */,
+				94D117A41AC8C6B10026FF2C /* SHCReversiBoardView.m in Sources */,
 				72A5A04E1671D8F600AF63F4 /* SHCAppDelegate.m in Sources */,
 				72A5A0571671D8F600AF63F4 /* SHCViewController.m in Sources */,
 				72347606167601BE00185647 /* main.m in Sources */,
