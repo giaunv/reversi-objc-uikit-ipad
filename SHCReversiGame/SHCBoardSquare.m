@@ -2,7 +2,7 @@
 //  SHCBoardSquare.m
 //  SHCReversiGame
 //
-//  Created by lavalamp on 3/30/15.
+//  Created by giaunv on 3/30/15.
 //  Copyright (c) 2015 Colin Eberhardt. All rights reserved.
 //
 
@@ -37,6 +37,7 @@
         self.backgroundColor = [UIColor clearColor];
         
         [self update];
+        [_board.boardDelegate addDelegate:self];
     }
     
     return self;
@@ -57,5 +58,11 @@
     // Drawing code
 }
 */
+
+-(void)cellStateChanged:(BoardCellState)state forColumn:(int)column andRow:(int)row{
+    if ((column == _column && row == _row) || (column == -1 && row == -1)) {
+        [self update];
+    }
+}
 
 @end

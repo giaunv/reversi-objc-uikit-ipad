@@ -2,7 +2,7 @@
 //  SHCReversiBoard.h
 //  SHCReversiGame
 //
-//  Created by lavalamp on 3/30/15.
+//  Created by giaunv on 3/30/15.
 //  Copyright (c) 2015 Colin Eberhardt. All rights reserved.
 //
 

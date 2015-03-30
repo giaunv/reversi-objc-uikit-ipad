@@ -2,7 +2,7 @@
 //  SHCBoardTest.m
 //  SHCReversiGame
 //
-//  Created by lavalamp on 3/29/15.
+//  Created by giaunv on 3/29/15.
 //  Copyright (c) 2015 Colin Eberhardt. All rights reserved.
 //
 

@@ -77,6 +77,7 @@
 		72A5A0841671DA3E00AF63F4 /* ReversiBlackPiece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ReversiBlackPiece.png; path = Assets/ReversiBlackPiece.png; sourceTree = "<group>"; };
 		72A5A0851671DA3E00AF63F4 /* ReversiBlackPiece@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ReversiBlackPiece@2x.png"; path = "Assets/ReversiBlackPiece@2x.png"; sourceTree = "<group>"; };
 		72A5A0861671DA3E00AF63F4 /* ReversiWhitePiece.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ReversiWhitePiece.png; path = Assets/ReversiWhitePiece.png; sourceTree = "<group>"; };
+		941B7B151AC8D1F80030A3F4 /* SHCBoardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoardDelegate.h; sourceTree = "<group>"; };
 		94D117931AC84CA60026FF2C /* SHCBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCBoard.h; sourceTree = "<group>"; };
 		94D117941AC84CA60026FF2C /* SHCBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoard.m; sourceTree = "<group>"; };
 		94D117961AC84D1B0026FF2C /* BoardCellState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardCellState.h; sourceTree = "<group>"; };
@@ -211,6 +212,7 @@
 				94D117961AC84D1B0026FF2C /* BoardCellState.h */,
 				94D1179C1AC8BCF80026FF2C /* SHCReversiBoard.h */,
 				94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */,
+				941B7B151AC8D1F80030A3F4 /* SHCBoardDelegate.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
