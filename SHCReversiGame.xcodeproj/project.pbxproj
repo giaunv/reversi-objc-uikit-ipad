@@ -89,6 +89,7 @@
 		94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCBoardSquare.m; sourceTree = "<group>"; };
 		94D117A21AC8C6B10026FF2C /* SHCReversiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCReversiBoardView.h; sourceTree = "<group>"; };
 		94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCReversiBoardView.m; sourceTree = "<group>"; };
+		94D862291ACC39770078095F /* SHCReversiBoardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCReversiBoardDelegate.h; path = ../SHCReversiBoardDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +208,7 @@
 		72A5A07A1671D9D200AF63F4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				94D862291ACC39770078095F /* SHCReversiBoardDelegate.h */,
 				94D117931AC84CA60026FF2C /* SHCBoard.h */,
 				94D117941AC84CA60026FF2C /* SHCBoard.m */,
 				94D117961AC84D1B0026FF2C /* BoardCellState.h */,
