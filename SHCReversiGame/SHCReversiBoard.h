@@ -30,4 +30,7 @@
 
 // multicasts game state changes
 @property (readonly) SHCMulticastDelegate* reversiBoardDelegate;
+
+// indicate whether the game has finished
+@property (readonly) BOOL gameHasFinished;
 @end

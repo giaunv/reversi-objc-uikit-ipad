@@ -36,11 +36,23 @@
     [self.view addSubview:reversiBoard];
     [self gameStateChanged];
     [_board.reversiBoardDelegate addDelegate:self];
+    
+    // add a tap recognizer
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(restartGame)];
+    [self.view addGestureRecognizer:tapRecognizer];
+}
+
+-(void)restartGame:(UITapGestureRecognizer*)recognizer{
+    if (_board.gameHasFinished) {
+        [_board setToInitialState];
+        [self gameStateChanged];
+    }
 }
 
 -(void)gameStateChanged{
     _whiteScore.text = [NSString stringWithFormat:@"%d", _board.whiteScore];
     _blackScore.text = [NSString stringWithFormat:@"%d", _board.blackScore];
+    _gameOverImage.hidden = !_board.gameHasFinished;
 }
 
 - (void)didReceiveMemoryWarning

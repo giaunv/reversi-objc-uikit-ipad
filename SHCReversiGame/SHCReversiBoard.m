@@ -180,7 +180,7 @@ BoardNavigationFunction BoardNavigationFunctionLeftDown = ^(NSInteger* c, NSInte
         [self flipOpponentsCountersForColumn:column andRow:row withNavigationFunction:_boardNavigationFunctions[i] toState:self.nextMove];
     }
     
-    _nextMove = [self invertState:_nextMove];
+    [self switchTurns];
     _whiteScore = [self countCellsWithState:BoardCellStateWhitePiece];
     _blackScore = [self countCellsWithState:BoardCellStateBlackPiece];
     
@@ -199,5 +199,32 @@ BoardNavigationFunction BoardNavigationFunctionLeftDown = ^(NSInteger* c, NSInte
     }
     
     return BoardCellStateEmpty;
+}
+
+-(BOOL)hasGameFinished{
+    return ![self canPlayerMakeAMove:BoardCellStateBlackPiece] && ![self canPlayerMakeAMove:BoardCellStateWhitePiece];
+}
+
+-(BOOL)canPlayerMakeAMove:(BoardCellState)state{
+    // test all the board locations to see if a move can be made
+    for (int row = 0; row < 8; row++) {
+        for (int col = 0; col < 8; col++) {
+            if ([self isValidMoveToColumn:col andRow:row forState:state]) {
+                return YES;
+            }
+        }
+    }
+    
+    return NO;
+}
+
+-(void)switchTurns{
+    // switch players
+    BoardCellState nextMoveTemp = [self invertState:self.nextMove];
+    
+    // only switch play if this player can make a move
+    if ([self canPlayerMakeAMove:nextMoveTemp]) {
+        _nextMove = nextMoveTemp;
+    }
 }
 @end
