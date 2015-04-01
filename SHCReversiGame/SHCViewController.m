@@ -32,7 +32,7 @@
     [_board setToInitialState];
     
     // create a view
-    SHCReversiBoardView* reversiBoard = [[SHCReversiBoardView alloc] initWithFrame:CGRectMake(88, 151, 600, 585) andBoard:_board];
+    SHCReversiBoardView* reversiBoard = [[SHCReversiBoardView alloc] initWithFrame:CGRectMake(94, 159, 600, 585) andBoard:_board];
     [self.view addSubview:reversiBoard];
 }
 
