@@ -57,7 +57,7 @@
         _whiteView.transform = state == BoardCellStateWhitePiece ? CGAffineTransformIdentity : CGAffineTransformMakeTranslation(0, -20);
         
         _blackView.alpha = state == BoardCellStateBlackPiece ? 1.0 : 0.0;
-        _whiteView.transform = state == BoardCellStateBlackPiece ? CGAffineTransformIdentity : CGAffineTransformMakeTranslation(0, -20);
+        _blackView.transform = state == BoardCellStateBlackPiece ? CGAffineTransformIdentity : CGAffineTransformMakeTranslation(0, -20);
     }];
 }
 
