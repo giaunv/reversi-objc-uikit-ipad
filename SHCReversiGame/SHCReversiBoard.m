@@ -181,6 +181,7 @@ BoardNavigationFunction BoardNavigationFunctionLeftDown = ^(NSInteger* c, NSInte
     }
     
     [self switchTurns];
+    _gameHasFinished = [self hasGameFinished];
     _whiteScore = [self countCellsWithState:BoardCellStateWhitePiece];
     _blackScore = [self countCellsWithState:BoardCellStateBlackPiece];
     
