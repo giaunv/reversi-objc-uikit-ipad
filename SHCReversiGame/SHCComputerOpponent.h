@@ -12,5 +12,5 @@
 
 /* A single computer opponent. */
 @interface SHCComputerOpponent : NSObject<SHCReversiBoardDelegate>
--(id)initWithBoard:(SHCReversiBoard*)board color:(BoardCellState)computerColor;
+-(id)initWithBoard:(SHCReversiBoard*)board color:(BoardCellState)computerColor maxDepth:(NSInteger)depth;
 @end
