@@ -8,7 +8,7 @@
 
 #import "SHCBoard.h"
 
-@interface SHCReversiBoard : SHCBoard
+@interface SHCReversiBoard : SHCBoard<NSCopying>
 
 // the white player's score
 @property (readonly) NSInteger whiteScore;

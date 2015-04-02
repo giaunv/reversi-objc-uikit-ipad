@@ -35,6 +35,7 @@
 		94D1179E1AC8BCF80026FF2C /* SHCReversiBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */; };
 		94D117A11AC8C2450026FF2C /* SHCBoardSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117A01AC8C2450026FF2C /* SHCBoardSquare.m */; };
 		94D117A41AC8C6B10026FF2C /* SHCReversiBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */; };
+		94D8622C1ACCC7740078095F /* SHCComputerOpponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D8622B1ACCC7740078095F /* SHCComputerOpponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,8 @@
 		94D117A21AC8C6B10026FF2C /* SHCReversiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCReversiBoardView.h; sourceTree = "<group>"; };
 		94D117A31AC8C6B10026FF2C /* SHCReversiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCReversiBoardView.m; sourceTree = "<group>"; };
 		94D862291ACC39770078095F /* SHCReversiBoardDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHCReversiBoardDelegate.h; path = ../SHCReversiBoardDelegate.h; sourceTree = "<group>"; };
+		94D8622A1ACCC7740078095F /* SHCComputerOpponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCComputerOpponent.h; sourceTree = "<group>"; };
+		94D8622B1ACCC7740078095F /* SHCComputerOpponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCComputerOpponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +218,8 @@
 				94D1179C1AC8BCF80026FF2C /* SHCReversiBoard.h */,
 				94D1179D1AC8BCF80026FF2C /* SHCReversiBoard.m */,
 				941B7B151AC8D1F80030A3F4 /* SHCBoardDelegate.h */,
+				94D8622A1ACCC7740078095F /* SHCComputerOpponent.h */,
+				94D8622B1ACCC7740078095F /* SHCComputerOpponent.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -363,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94D117951AC84CA60026FF2C /* SHCBoard.m in Sources */,
+				94D8622C1ACCC7740078095F /* SHCComputerOpponent.m in Sources */,
 				94D117A41AC8C6B10026FF2C /* SHCReversiBoardView.m in Sources */,
 				72A5A04E1671D8F600AF63F4 /* SHCAppDelegate.m in Sources */,
 				72A5A0571671D8F600AF63F4 /* SHCViewController.m in Sources */,

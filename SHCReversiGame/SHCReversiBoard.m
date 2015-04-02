@@ -227,4 +227,12 @@ BoardNavigationFunction BoardNavigationFunctionLeftDown = ^(NSInteger* c, NSInte
         _nextMove = nextMoveTemp;
     }
 }
+
+-(id)copyWithZone:(NSZone *)zone{
+    SHCReversiBoard* board = [super copyWithZone:zone];
+    board->_nextMove = _nextMove;
+    board->_whiteScore = _whiteScore;
+    board->_blackScore = _blackScore;
+    return board;
+}
 @end

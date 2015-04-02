@@ -9,6 +9,7 @@
 #import "SHCViewController.h"
 #import "SHCReversiBoard.h"
 #import "SHCReversiBoardView.h"
+#import "SHCComputerOpponent.h"
 
 @interface SHCViewController ()
 
@@ -16,6 +17,7 @@
 
 @implementation SHCViewController{
     SHCReversiBoard* _board;
+    SHCComputerOpponent* _computer;
 }
 
 - (void)viewDidLoad
@@ -40,6 +42,8 @@
     // add a tap recognizer
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(restartGame)];
     [self.view addGestureRecognizer:tapRecognizer];
+    
+    _computer = [[SHCComputerOpponent alloc] initWithBoard:_board color:BoardCellStateWhitePiece];
 }
 
 -(void)restartGame:(UITapGestureRecognizer*)recognizer{
